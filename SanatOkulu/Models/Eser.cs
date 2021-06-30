@@ -17,6 +17,7 @@ namespace SanatOkulu.Models
         public string Ad { get; set; }
 
         public int? Yil { get; set; }
+        public string Resim { get; set; }
 
         // Sanatci + Id : Sanatci entity'sinin Id'sine referans veren bir FK
         public int SanatciId { get; set; }
